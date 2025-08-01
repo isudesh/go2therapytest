@@ -1,0 +1,4 @@
+phases:
+  build:
+    commands:
+      - aws s3 sync . s3://go2therapycicd --delete
